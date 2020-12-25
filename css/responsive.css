@@ -1,0 +1,70 @@
+/* Laptop - Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* LG - Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .slider-height{
+        min-height: 450px;
+    }
+
+    .slider-content h2{
+        font-size: 48px;
+    }
+
+    .case-content h3{
+        font-size: 18px;
+    }
+
+    .consultation-form {
+        padding: 40px;
+    }
+
+    .faq-thumb img{
+        margin-left: 0;
+        width: 100%;
+    }
+
+}
+
+ 
+/* MD - Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .theme-bg{
+        background: none;
+    }
+
+    .slider-height{
+        min-height: 650px;
+    }
+
+    .slider-content h2{
+        font-size: 56px;
+    }
+
+    .logo-area{
+        padding-bottom: 80px;
+    }
+
+    .mean-container a.meanmenu-reveal {
+        margin-top: -113px;
+    }
+
+}
+
+ 
+/* XS - small mobile :320px. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* SM - Large Mobile :550px. */
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+ 
+}
+
